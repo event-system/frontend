@@ -1,0 +1,68 @@
+export async function getEvents() {
+return [
+  {
+    title: "Adventure Gear Show",
+    date: "June 5, 2029 — 3:00 PM",
+    location: "Rocky Ridge Exhibition Hall, Denver, CO",
+    category: "Outdoor & Adventure",
+    status: "Active",
+    price: 40,
+  },
+  {
+    title: "Symphony Under the Stars",
+    date: "Apr 20, 2029 — 7:00 PM",
+    location: "Sunset Park, Los Angeles, CA",
+    category: "Music",
+    status: "Active",
+    price: 50,
+  },
+  {
+    title: "Runway Revolution 2029",
+    date: "May 1, 2029 — 6:00 PM",
+    location: "Vogue Hall, New York, NY",
+    category: "Fashion",
+    status: "Active",
+    price: 100,
+  },
+  {
+    title: "Global Wellness Summit",
+    date: "May 5, 2029 — 9:00 AM",
+    location: "Wellness Arena, Miami, FL",
+    category: "Health & Wellness",
+    status: "Active",
+    price: 75,
+  },
+  {
+    title: "Artistry Unveiled Expo",
+    date: "May 15, 2029 — 10:00 AM",
+    location: "Modern Art Gallery, Chicago, IL",
+    category: "Art & Design",
+    status: "Active",
+    price: 20,
+  },
+  {
+    title: "Culinary Delights Festival",
+    date: "May 25, 2029 — 11:00 AM",
+    location: "Gourmet Plaza, San Francisco, CA",
+    category: "Food & Culinary",
+    status: "Active",
+    price: 45,
+  },
+  {
+    title: "Echo Beats Festival",
+    date: "May 20, 2029 — 6:00 PM",
+    location: "Sunset Park, Los Angeles, CA",
+    category: "Music",
+    status: "Active",
+    price: 60,
+  },
+  {
+    title: "Tech Future Expo",
+    date: "June 1, 2029 — 10:00 AM",
+    location: "Silicon Valley, San Jose, CA",
+    category: "Technology",
+    status: "Active",
+    price: 80,
+  },
+];
+}
