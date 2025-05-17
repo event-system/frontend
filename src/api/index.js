@@ -1,5 +1,5 @@
 export async function getEvents() {
-  const url = `https://localhost:7070/bookings`;
+  const url = process.env.bookings_url ?? 'zibby';
   const response = await fetch(url);
   const data = await response.json();
   console.log(data);
