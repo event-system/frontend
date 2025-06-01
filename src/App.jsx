@@ -7,6 +7,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+import GalleryPage from "./GalleryPage/index.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/events" element={<EventPage />} />
         <Route path="/bookings" element={<BookingsPage />} />
+        <Route path="/gallery" element={<GalleryPage />} />
         <Route path="*" element={<Navigate to="/events" replace />} />
       </Routes>
     </Router>
